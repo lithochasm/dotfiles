@@ -1,34 +1,68 @@
-!My Config Shit
-URxvt*buffered:		true
-URxvt*scrollBar:	false
-URxvt*font:	xft:terminus:size=9
-!URxvt*font:	xft:hack:size=9
-!URxvt*font:	xft:roboto:size=9
+! special
+URxvt.background: #24273A
+URxvt.foreground: #CAD3F5
+URxvt.cursorColor: #F4DBD6
 
-URxvt*internalBorder:	4	! pixels from edge
-URxvt*shading:		15
-URxvt*transparent:	true
+! black
+URxvt.color0: #494D64
+URxvt.color8: #5B6078
 
-!Fonts
-Xft.antialias:	true
-Xft.hinting:	true
+! red
+URxvt.color1: #ED8796
+URxvt.color9: #ED8796
 
-! Dracula Xresources palette
-*.foreground: #F8F8F2
-*.background: #282A36
-*.color0:     #000000
-*.color8:     #4D4D4D
-*.color1:     #FF5555
-*.color9:     #FF6E67
-*.color2:     #50FA7B
-*.color10:    #5AF78E
-*.color3:     #F1FA8C
-*.color11:    #F4F99D
-*.color4:     #BD93F9
-*.color12:    #CAA9FA
-*.color5:     #FF79C6
-*.color13:    #FF92D0
-*.color6:     #8BE9FD
-*.color14:    #9AEDFE
-*.color7:     #BFBFBF
-*.color15: #E6E6E6
+! green
+URxvt.color2: #A6DA95
+URxvt.color10: #A6DA95
+
+! yellow
+URxvt.color3: #EED49F
+URxvt.color11: #EED49F
+
+! blue
+URxvt.color4: #8AADF4
+URxvt.color12: #8AADF4
+
+! magenta
+URxvt.color5: #F5BDE61
+URxvt.color13: #F5BDE6
+
+! cyan
+URxvt.color6: #8BD5CA
+URxvt.color14: #8BD5CA
+
+! white
+URxvt.color7: #B8C0E0
+URxvt.color15: #A5ADCB
+
+!! URxvt Appearance
+URxvt.letterSpace: 0 
+URxvt.lineSpace: -1
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 24
+URxvt.iso14755: false
+
+!! URxvt.font: xft:bitstream vera sans mono:size=9:antialias=true
+!!URxvt.font: xft:terminus:pixelsize=9:antialias=true
+URxvt*font: xft:Inconsolata:size=10
+
+
+Xft.autohint: 0
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+URxvt.urlLauncher: firefox
+URxvt.underlineURLs: true
+
+!!URxvt.perl-ext-common: selection-to-clipboard
+!!URxvt.clipboard.autocopy: true
+!!URxvt.keysym.M-c: perl:clipboard:copy
+!!URxvt.keysym.M-v: perl:clipboard:paste
